@@ -34,7 +34,7 @@ def show_help() -> None:
 def main(argv: list[str] | None = None) -> None:
     """Main entrypoint. If no args or known subcommands are provided, print the joke.
 
-    Designed to be installed as a console_script entrypoint (gi -> gi.main:main).
+    Designed to be installed as a console_script entrypoint (gi -> gi_cli.main:main).
     """
     if argv is None:
         argv = sys.argv[1:]
