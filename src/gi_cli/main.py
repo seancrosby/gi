@@ -20,7 +20,7 @@ def print_ghost_joke() -> None:
     (o o) {YELLOW}boo!{CYAN}
     | O |
      \\ /    {YELLOW}"I am the ghost of commands that
-      `      almost made sense. Try again."{RESET}
+      {CYAN}`      {YELLOW}almost made sense. Try again."{RESET}
 """
     print(ghost)
 
