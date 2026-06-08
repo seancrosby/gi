@@ -1,5 +1,23 @@
-# Python Gemini Template
+# gi
 
-This repository serves as a standardized template for creating Python projects with Gemini CLI. It defines a set of best practices, architectural patterns, and engineering standards to ensure consistency across all derived projects.
+A tiny installable CLI that prints a ghost joke.
 
-The core of this template is the `GEMINI.md` file, which should be copied into new Python projects to provide immediate context and guidance for AI-assisted development.
+Installation
+
+- Install locally: `pip install .`
+- Install editable for development: `pip install -e .`
+
+Usage
+
+- Run the CLI: `gi` (prints the joke)
+- Alternative subcommands: `gi tstatus`, `gi status`, `gi joke`
+- Show version: `gi --version`
+- Show help: `gi --help`
+
+Packaging
+
+This project uses a `pyproject.toml` with a console script entrypoint `gi = "gi.main:main"`.
+
+License
+
+MIT (check repository for license file)
